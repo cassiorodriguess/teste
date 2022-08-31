@@ -13,5 +13,15 @@
 
 <p>Execute o comando php artisan migrate (Ele vai rodar as migrations que precisa no banco MYSQL.)</p>
 
+## Polule a cidade e as marcas no seu MYSQL
+
+<p>INSERT INTO `cidades` (`cod_cidade`, `nome_cidade`, `created_at`, `updated_at`) VALUES ('1', 'Araraquara', now(), now());</p>
+
+<p>INSERT INTO `cidades` (`cod_cidade`, `nome_cidade`, `created_at`, `updated_at`) VALUES ('2', 'Araguari', now(), now());</p>
+
+<p>INSERT INTO `marcas` (`cod_marca`, `nome_marca`, `created_at`, `updated_at`) VALUES ('1', 'teste1', now(), now());</p>
+
+<p>INSERT INTO `marcas` (`cod_marca`, `nome_marca`, `created_at`, `updated_at`) VALUES ('2', 'teste1', now(), now());</p>
+
 <p>Execute o comando php artisan serve (Ele vai abrir um servidor local para poder rodar a aplicação)</p>
 
